@@ -19,9 +19,7 @@ body {
 
 .logo-container {    
     flex-basis: 40%;
-    position: relative;
 }
-
 
 .logo {
     display: flex;
@@ -48,18 +46,19 @@ body {
 
 .form-container {
     flex-basis: 60%;
-    background-color: white;
+    background-color: #d4d3c9;
 }
 
 .introduction {
     font-size: 2rem;
     padding: 4rem;
     font-weight: 700;
+    width: max(60%, 45ch);
 }
 
 form {
     font-size: 1rem;
-    padding: 4rem;
+    padding: 0 4rem;
     display: flex;
     flex-direction: column;
 }
@@ -69,29 +68,64 @@ legend {
     margin-bottom: 2rem;
 }
 
-.names{
-    margin-bottom: 2rem; 
-    display: flex;
-}
-
-.data{
-    margin-bottom: 2rem; 
-    display: flex;
-}
-
-.passwords{
+.names, .data, .passwords{
     margin-bottom: 2rem; 
     display: flex;
 }
 
 .firstColumn{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
 
 .secondColumn{
     display: flex;
     flex-direction: column;
     margin-left: 2rem;
+}
+
+input {
+    display: block;
+    font-family: inherit;
+    font-size: 100%;
+    border-radius: 0.2rem;
+    height: 1.5rem;
+    width: 15rem;
+    border-color: #E5E7EB;
+}
+
+label{
+    display: block;
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: 500;
+}
+
+input:focus{
+    border: 1px solid #5097c7;
+    outline: none;
+    box-shadow: 3px 3px 1px #5097c7;
+}
+
+button {
+    height: 4rem;
+    width: 14rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #0e1418;
+    color: #E5E7EB;
+}
+
+.log-in{
+    font-size: 1.5rem;
+}
+
+a {
+    color: #0e1418;
+}
+
+.message {
+    margin-top: 0.6rem;
+    color: red;
 }

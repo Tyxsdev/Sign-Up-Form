@@ -25,7 +25,6 @@
             </section>
 
             <form action="#" method="get">
-                <fieldset>
                     <legend>Ok lets go!</legend>
                     
                     <section class="names">
@@ -55,18 +54,19 @@
                     
                     <section class="passwords">
                         
-                        <div class="firstColumn">
+                        <div class="firstColumnr">
                             <label for="password">PASSWORD</label>
-                            <input type="password" name="password" id="password">
+                            <input type="password" name="password" id="password" class="error">
+                            <div class="message"></div>
                         </div>
 
                         <div class="secondColumn">
                             <label for="confirm_password">CONFIRM PASSWORD</label>
-                            <input type="password" name="confirmPassword" id="confirm_password">
+                            <input type="password" name="confirmPassword" id="confirm_password" class="error">
                         </div>
                     </section>
-                </fieldset>
-
+                    <button type="submit">Create Account</button>
+                    <p class="log-in">Already have an account? <a href="">Log in</a></p>
             </form>
 
 
