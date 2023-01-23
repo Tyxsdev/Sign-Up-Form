@@ -25,24 +25,24 @@
             </section>
 
             <form action="#" method="get">
-                    <legend>Ok lets go!</legend>
+                    <legend>Ok lets go! Remember required fields are marqued with an *</legend>
                     
                     <section class="names">
                         <div class="firstColumn">
-                            <label for="first_name">FIRST NAME</label>
-                            <input type="text" id="first_name" name="firstName">
+                            <label for="first_name">FIRST NAME *</label>
+                            <input type="text" id="first_name" name="firstName" required>
                         </div>
                     
                         <div class="secondColumn">
-                            <label for="last_name">LAST NAME</label>
-                            <input type="text" id="last_name" name="lastName">
+                            <label for="last_name">LAST NAME *</label>
+                            <input type="text" id="last_name" name="lastName" required>
                         </div>
                     </section>
 
                     <section class="data">
                         <div class="firstColumn">
-                            <label for="email">EMAIL</label>
-                            <input type="email" name="email" id="email">
+                            <label for="email">EMAIL *</label>
+                            <input type="email" name="email" id="email" required>
                         </div>
 
                         <div class="secondColumn">
@@ -55,13 +55,13 @@
                     <section class="passwords">
                         
                         <div class="firstColumnr">
-                            <label for="password">PASSWORD</label>
+                            <label for="password">PASSWORD *</label>
                             <input type="password" name="password" id="password" class="error">
                             <div class="message"></div>
                         </div>
 
                         <div class="secondColumn">
-                            <label for="confirm_password">CONFIRM PASSWORD</label>
+                            <label for="confirm_password">CONFIRM PASSWORD *</label>
                             <input type="password" name="confirmPassword" id="confirm_password" class="error">
                         </div>
                     </section>

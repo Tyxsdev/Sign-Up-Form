@@ -1,19 +1,18 @@
-:root {
-    background-image: url(/images/fantasy-g5bb6cade3_1920.jpg);
-    background-repeat: no-repeat;
-    background-position: -400px 0%;
-    box-sizing: border-box;
-}
-
 body {
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu Mono', monospace;
+    background-image: url(/images/fantasy-g5bb6cade3_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: -400px 0px;
+    box-sizing: border-box;
 }
 
 .wrapper {
-    width: 100vw;
-    height: 100vh;
+    margin: 0;
+    width: 100%;
+    height: 100%;
     display: flex;
 }
 
@@ -45,6 +44,7 @@ body {
 }
 
 .form-container {
+    height: 100vh;
     flex-basis: 60%;
     background-color: #d4d3c9;
 }
@@ -64,7 +64,8 @@ form {
 }
 
 legend {
-    font-size: 2rem;
+    width: max(60%, 45ch);
+    font-size: 1.5rem;
     margin-bottom: 2rem;
 }
 
