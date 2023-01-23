@@ -50,3 +50,48 @@ body {
     flex-basis: 60%;
     background-color: white;
 }
+
+.introduction {
+    font-size: 2rem;
+    padding: 4rem;
+    font-weight: 700;
+}
+
+form {
+    font-size: 1rem;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+legend {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.names{
+    margin-bottom: 2rem; 
+    display: flex;
+}
+
+.data{
+    margin-bottom: 2rem; 
+    display: flex;
+}
+
+.passwords{
+    margin-bottom: 2rem; 
+    display: flex;
+}
+
+.firstColumn{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.secondColumn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
