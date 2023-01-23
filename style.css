@@ -18,6 +18,9 @@ body {
 
 .logo-container {    
     flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .logo {
@@ -129,4 +132,15 @@ a {
 .message {
     margin-top: 0.6rem;
     color: red;
+}
+
+.credit {
+    color: #d4d3c9;
+    position: absolute;
+    bottom: 1rem;
+    align-self: center;
+}
+
+.credit a{
+    color: #d4d3c9;
 }
