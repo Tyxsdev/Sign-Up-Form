@@ -1,3 +1,52 @@
-* {
-    background-color: black;
+:root {
+    background-image: url(/images/fantasy-g5bb6cade3_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: -400px 0%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.logo-container {    
+    flex-basis: 40%;
+    position: relative;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+.logo-name {
+    margin-right: 1rem;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    height: 5rem;
+    align-self: flex-start;
+}
+
+#logo-image {
+    width: 4rem;
+    height: 5rem;
+}
+
+.form-container {
+    flex-basis: 60%;
+    background-color: white;
 }
